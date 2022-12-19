@@ -184,7 +184,7 @@ def pde(x, y, psi):
 
     eta_s = eta_s_var
     ind = tf.cast(x < eta_s, tf.float64)
-    return [eq2 * ind, eq3 * ind, q_increase * ind, theta_hat_increase * ind]
+    return [qpp_eq * ind, theta_pp_eq * ind, q_increase * ind, theta_hat_increase * ind]
 
 
 geom = dde.geometry.Interval(lim, 1)
