@@ -242,7 +242,7 @@ model.compile(
     metrics=[v_l2, g_l2],
 )
 losshistory, train_state = model.train(
-    epochs=75000, callbacks=[variable], display_every=1000
+    epochs=150000, callbacks=[variable], display_every=1000
 )
 dde.saveplot(losshistory, train_state, issave=True, isplot=True)
 
