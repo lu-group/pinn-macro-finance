@@ -236,7 +236,7 @@ variable = dde.callbacks.VariableValue([rl_train, a_train], period=1000, precisi
 model.compile(
     "adam",
     lr=1e-3,
-    decay=("inverse time", 5000, 1.0),
+    decay=("inverse time", 2500, 1.0),
     loss_weights=lw,
     external_trainable_variables=[rl_train, a_train],
     metrics=[v_l2, g_l2],
