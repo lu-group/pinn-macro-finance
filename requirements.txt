@@ -1,0 +1,5 @@
+deepxde
+numpy
+matplotlib
+scipy
+math
