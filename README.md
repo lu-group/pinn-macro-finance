@@ -8,11 +8,12 @@ The data and code for the paper [B. Fan, E. Qiao, A. Jiao, Z. Gu, W. Li, & L. Lu
   - [Forward PDE Problem](https://github.com/lu-group/pinn-macro-finance/blob/main/src/bs_forward.py)
   - [Inverse PDE Problem with One Unknown Variable](https://github.com/lu-group/pinn-macro-finance/blob/main/src/bs_inverse_1_var.py)
   - [Inverse PDE Problem with Two Unknown Variables](https://github.com/lu-group/pinn-macro-finance/blob/main/src/bs_inverse_2_var.py)
-  - Reference solution for comparison can be found in the [data](https://github.com/lu-group/pinn-macro-finance/tree/main/data) folder
+  - Reference solution for comparison can be found in the [hjb_data](https://github.com/lu-group/pinn-macro-finance/tree/main/data/hjb_data) folder
 - A Model of Industrial Dynamics with Financial Frictions
   - [Forward PDE Problem](https://github.com/lu-group/pinn-macro-finance/blob/main/src/hjb_forward.py)
   - [Inverse PDE Problem with Two Unknown Variables](https://github.com/lu-group/pinn-macro-finance/blob/main/src/hjb_inverse_2_var.py)
   - [Inverse PDE Problem with Three Unknown Variables](https://github.com/lu-group/pinn-macro-finance/blob/main/src/hjb_inverse_3_var.py)
+  - Reference solution for comparison can be found in the [bs_data](https://github.com/lu-group/pinn-macro-finance/tree/main/data/bs_data) folder
 
 ## Cite this work
 If you use this data or code for academic research, you are encouraged to cite the following paper:
