@@ -1,5 +1,4 @@
 deepxde
-numpy
 matplotlib
+numpy
 scipy
-math
