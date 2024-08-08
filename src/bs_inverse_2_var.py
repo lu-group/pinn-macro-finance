@@ -271,8 +271,8 @@ def boundary_l(x, on_boundary):
 
 bc_q = dde.icbc.DirichletBC(geom, lambda x: q_, boundary_l, component=0)
 
-qq = np.loadtxt("q.txt", dtype=float)
-thetatheta = np.loadtxt("theta.txt", dtype=float)
+qq = np.loadtxt("../data/bs/q.txt", dtype=float)
+thetatheta = np.loadtxt("../data/bs/theta.txt", dtype=float)
 eta = qq[:, 0]
 q = qq[:, 1]
 theta_unnorm = thetatheta[:, 1]
@@ -377,8 +377,8 @@ losshistory, train_state = model.train(
 
 dde.saveplot(losshistory, train_state, issave=False, isplot=True)
 
-q_txt = np.loadtxt("q.txt", dtype=float)
-theta_txt = np.loadtxt("theta.txt", dtype=float)
+q_txt = np.loadtxt("../data/bs/q.txt", dtype=float)
+theta_txt = np.loadtxt("../data/bs/theta.txt", dtype=float)
 
 eta_s_train = variable.get_value()[1]
 eta_s = 0.2 / (1 + np.exp(-eta_s_train)) + 0.3

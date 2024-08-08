@@ -173,12 +173,12 @@ bcN_g = dde.icbc.OperatorBC(
     boundary_z,
 )
 
-e_true = np.loadtxt(open("../data/hjb_e.csv", "r"), delimiter=",", dtype=np.float32).flatten()
-z_true = np.loadtxt(open("../data/hjb_z.csv", "r"), delimiter=",", dtype=np.float32).flatten()
-v_true = np.loadtxt(open("../data/hjb_v.csv", "r"), delimiter=",", dtype=np.float32).flatten()[
+e_true = np.loadtxt(open("../data/hjb/hjb_e.csv", "r"), delimiter=",", dtype=np.float32).flatten()
+z_true = np.loadtxt(open("../data/hjb/hjb_z.csv", "r"), delimiter=",", dtype=np.float32).flatten()
+v_true = np.loadtxt(open("../data/hjb/hjb_v.csv", "r"), delimiter=",", dtype=np.float32).flatten()[
     :, None
 ]
-g_true = np.loadtxt(open("../data/hjb_g.csv", "r"), delimiter=",", dtype=np.float32).flatten()[
+g_true = np.loadtxt(open("../data/hjb/hjb_g.csv", "r"), delimiter=",", dtype=np.float32).flatten()[
     :, None
 ]
 
@@ -247,10 +247,10 @@ for i in range(N):
         v_pred[i, j] = model_pred[0, 0]
         g_pred[i, j] = model_pred[0, 1]
 
-e_true = np.genfromtxt("../data/hjb_e.csv", delimiter=",").T
-z_true = np.genfromtxt("../data/hjb_z.csv", delimiter=",").T
-v_true = np.genfromtxt("../data/hjb_v.csv", delimiter=",").T
-g_true = np.maximum(np.genfromtxt("../data/hjb_g.csv", delimiter=",").T, 0)
+e_true = np.genfromtxt("../data/hjb/hjb_e.csv", delimiter=",").T
+z_true = np.genfromtxt("../data/hjb/hjb_z.csv", delimiter=",").T
+v_true = np.genfromtxt("../data/hjb/hjb_v.csv", delimiter=",").T
+g_true = np.maximum(np.genfromtxt("../data/hjb/hjb_g.csv", delimiter=",").T, 0)
 
 
 def plot_heatmap(fun):
