@@ -19,7 +19,7 @@ If you use this data or code for academic research, you are encouraged to cite t
 ```
 @article{fan2023deep,
       title         = {Deep Learning for Solving and Estimating Dynamic Macro-Finance Models}, 
-      author        = {Benjamin Fan and Edward Qiao and Anran Jiao and Zhouzhou Gu and Wenhao Li and Lu Lu},
+      author        = {Fan, Benjamin and Qiao, Edward and Jiao, Anran and Gu, Zhouzhou and Li, Wenhao and Lu, Lu},
       year          = {2023},
       eprint        = {2305.09783},
       archivePrefix = {arXiv},
