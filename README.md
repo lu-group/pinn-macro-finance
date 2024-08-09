@@ -18,13 +18,12 @@ The data and code for the paper [B. Fan, E. Qiao, A. Jiao, Z. Gu, W. Li, & L. Lu
 ## Cite this work
 If you use this data or code for academic research, you are encouraged to cite the following paper:
 ```
-@article{fan2023deep,
-  title         = {Deep Learning for Solving and Estimating Dynamic Macro-Finance Models}, 
-  author        = {Fan, Benjamin and Qiao, Edward and Jiao, Anran and Gu, Zhouzhou and Li, Wenhao and Lu, Lu},
-  year          = {2023},
-  eprint        = {2305.09783},
-  archivePrefix = {arXiv},
-  primaryClass  = {q-fin.CP}
+@article{fan2024deep,
+  author  = {Fan, Benjamin and Qiao, Edward and Jiao, Anran and Gu, Zhouzhou and Li, Wenhao and Lu, Lu},
+  title   = {Deep Learning for Solving and Estimating Dynamic Macro-Finance Models},
+  journal = {Computation Economics},
+  year    = {2024},
+  doi     = {https://doi.org/10.1007/s10614-024-10693-3}
 }
 ```
 
