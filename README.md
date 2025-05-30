@@ -1,7 +1,7 @@
 > Under Construction
 
 # Economics PINN: Deep learning for solving and estimating dynamic macro-finance models
-The data and code for the paper [B. Fan, E. Qiao, A. Jiao, Z. Gu, W. Li, & L. Lu. Deep Learning for Solving and Estimating Dynamic Macro-Finance Models. *Computational Economics*, 65, 3885–3921, 2025.](https://doi.org/10.1007/s10614-024-10693-3)
+The data and code for the paper [B. Fan, E. Qiao, A. Jiao, Z. Gu, W. Li, & L. Lu. Deep Learning for Solving and Estimating Dynamic Macro-Finance Models. *Computational Economics*, 65(6), 3885–3921, 2025.](https://doi.org/10.1007/s10614-024-10693-3)
 
 ## Code
 - A Macroeconomic Model with a Financial Sector
@@ -23,6 +23,7 @@ If you use this data or code for academic research, you are encouraged to cite t
   title   = {Deep learning for solving and estimating dynamic macro-finance models},
   journal = {Computational Economics},
   volume  = {65},
+  issue   = {6},
   pages   = {3885–3921},
   year    = {2025},
   doi     = {https://doi.org/10.1007/s10614-024-10693-3}
